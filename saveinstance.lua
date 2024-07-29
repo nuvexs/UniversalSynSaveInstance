@@ -816,8 +816,8 @@ StatusText.Text = "Starting..."
 StatusText.TextColor3 = Color3.new(1, 1, 1)
 StatusText.TextScaled = true
 StatusText.TextStrokeTransparency = 0.7
-StatusText.TextXAlignment = Enum.TextXAlignment.Right
-StatusText.TextYAlignment = Enum.TextYAlignment.Top
+StatusText.TextXAlignment = Enum.TextXAlignment.Center
+StatusText.TextYAlignment = Enum.TextYAlignment.Bottom
 
 local ScriptsClasses = ArrayToDictionary({ "LocalScript", "ModuleScript", Script = false }, "bool")
 local function synsaveinstance(CustomOptions)
